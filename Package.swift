@@ -5,7 +5,7 @@ import PackageDescription
 let package = Package(
     name: "UTMConversion",
     platforms: [
-        .iOS(.v12), .macOS(.v14)
+        .iOS(.v12), .macOS(.v10_12)
     ],
     products: [
         .library(
